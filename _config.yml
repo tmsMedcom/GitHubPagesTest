@@ -5,5 +5,4 @@ show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
 layout: page
-title: "PAGE CONTENT TEST"
-permalink: /GitHubPages.md
+permalink: https://github.com/tmsMedcom/GitHubPagesTest/blob/2182e4351e814791f8c258502ec22f342fcc58cc/GitHubPages.md
