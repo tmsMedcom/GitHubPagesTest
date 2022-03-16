@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to MedComHospitalNotification
+
+[Responsible](https://github.com/tmsMedcom/GitHubPagesTest/blob/149548df0fb310a10bda618cdab1f01e974876bc/docs/contact.html)
 
 You can use the [editor on GitHub](https://github.com/tmsMedcom/GitHubPagesTest/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
