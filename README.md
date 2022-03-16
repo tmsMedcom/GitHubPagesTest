@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to MedCom GitHub test-Pages
 
 You can use the [editor on GitHub](https://github.com/tmsMedcom/GitHubPagesTest/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
