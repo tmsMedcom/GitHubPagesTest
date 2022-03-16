@@ -7,8 +7,7 @@ Profiles used in HospitalNotification are not as open as other profiles because 
 ### Documentation 
 
 #### Non-technical guidelines 
-[DA-guideline](input\images\hospitalnotification\pdf\FHIR_advis_om_sygehusophold_1.0.1.pdf)
-
+[DA-guideline](https://github.com/tmsMedcom/GitHubPagesTest/blob/e36d4b3175812c8d9827bfc72091e046bb3fb027/input/images/hospitalnotification/pdf/FHIR_advis_om_sygehusophold_1.0.1.pdf)
 
 ### Markdown
 
@@ -32,7 +31,7 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-![MedCom Logo](https://github.com/tmsMedcom/GitHubPagesTest/blob/0ea219764dccdbdd5d53e18e46663f81bcb9e1a3/docs/Medcom_logo_2015.png)
+![MedCom Logo](Medcom-logo-2015.png)
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
