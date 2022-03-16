@@ -7,7 +7,7 @@ Profiles used in HospitalNotification are not as open as other profiles because 
 ### Documentation 
 
 #### Non-technical guidelines 
-[DA-guideline](https://github.com/tmsMedcom/GitHubPagesTest/blob/e36d4b3175812c8d9827bfc72091e046bb3fb027/input/images/hospitalnotification/pdf/FHIR_advis_om_sygehusophold_1.0.1.pdf)
+[DA-guideline](https://github.com/tmsMedcom/GitHubPagesTest/blob/e36d4b3175812c8d9827bfc72091e046bb3fb027/input/images/hospitalnotification/pdf/FHIR_advis_om_sygehusophold_1.0.1)
 
 ### Markdown
 
