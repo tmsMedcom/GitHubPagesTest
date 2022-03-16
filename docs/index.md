@@ -4,23 +4,8 @@ This FHIR&reg;&copy; standard is developed by [MedCom](https://www.medcom.dk/). 
 
 Profiles used in HospitalNotification are not as open as other profiles because the message is automatically sent and thus not based on a patient consent. The legislation permits this exchange, but the message shall not contain more information than nessecary.
 
-<table>
-    <tr>
-        <th>No.</th>
-        <th>Name</th>
-        <th>Age</th>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td>Peter Parker</td>
-        <td>16</td>
-    </tr>
-    <tr>
-        <td>2</td>
-        <td>Clark Kent</td>
-        <td>34</td>
-    </tr>
-</table>
+|     [Non-technical guidelines](#non-technical-guidelines)   |  (Use Cases)   |     Test protocols   |     Implementation Guide   |
+
 
 ### Documentation 
 
