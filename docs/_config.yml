@@ -5,11 +5,3 @@ description: Minimal is a theme for GitHub Pages.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
-date:
-  type: "date"
-  options:
-    format: "iso8601" # "iso8601" (default), "timestamp-seconds"
-author: 
-  name: MedCom
-  email: fhir@medcom.dk
-  github: https://github.com/hl7dk

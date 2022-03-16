@@ -1,1 +1,0 @@
-Responsible: [MedCom](https://www.medcom.dk/) 

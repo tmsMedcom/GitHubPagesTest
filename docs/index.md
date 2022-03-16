@@ -1,10 +1,14 @@
-## Welcome to MedComHospitalNotification
+## MedComHospitalNotification
 
-[Responsible](https://github.com/tmsMedcom/GitHubPagesTest/blob/149548df0fb310a10bda618cdab1f01e974876bc/docs/contact.html)
+This FHIR&reg;&copy; standard is developed by [MedCom](https://www.medcom.dk/). Its a messagebased standard used to inform a municipality about hospitalization of a patient.
 
-You can use the [editor on GitHub](https://github.com/tmsMedcom/GitHubPagesTest/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+Profiles used in HospitalNotification are not as open as other profiles because the message is automatically sent and thus not based on a patient consent. The legislation permits this exchange, but the message shall not contain more information than nessecary.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Documentation 
+
+#### Non-technical guidelines 
+[DA-guideline](input\images\hospitalnotification\pdf\FHIR_advis_om_sygehusophold_1.0.1.pdf)
+
 
 ### Markdown
 
@@ -38,4 +42,13 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 ### Support or Contact
 
+[Publisher](https://www.medcom.dk/)
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+
+Eksempel for HospitalNotification
+HospitalNotification standarden skal på sigt erstatte xdis?? Og skal anvendes til at informere en borgers kommune om, at borger er blevet indlagt på et hospital. Hvis den pågældende borger modtager kommunale ydelser, kan disse pauseres indtil borgeren bliver udskrevet. Der skal altså både sendes en meddelelse ved indlæggelse, orlov fra indlæggelse og udskrivelse, som illustrereret på figuren. Ydermere kan kommuner bidrage med værdifuld information i en indlæggelsesrapport som kan sendes til hospitalet. 
+ 
+Herunder findes relevant information. 
+Sundhedsfaglig dokumentation	Use Cases	Testprotokoller 	Link til Implementation Guide.
+Link	Link	Link	Link
