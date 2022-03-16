@@ -9,6 +9,7 @@ Profiles used in HospitalNotification are not as open as other profiles because 
 #### Non-technical guidelines 
 [DA-guideline](./input/images/hospitalnotification/pdf/FHIR_advis_om_sygehusophold_1.0.1.pdf)
 
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
