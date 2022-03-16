@@ -1,6 +1,6 @@
 title: MedCom Hospital Notification in FHIR
 description: This page includes content about HospitalNotification (DA: Sygehusadvis)
-logo: https://github.com/tmsMedcom/GitHubPagesTest/blob/0ea219764dccdbdd5d53e18e46663f81bcb9e1a3/docs/Medcom_logo_2015.png
+logo: Medcom-logo-2015
 description: Minimal is a theme for GitHub Pages.
 show_downloads: true
 google_analytics:
@@ -13,7 +13,3 @@ author:
   name: MedCom
   email: fhir@medcom.dk
   github: https://github.com/hl7dk
-# Reasing files
-include: 
-  - index.md
-  - contact.md
