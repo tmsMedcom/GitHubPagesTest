@@ -14,10 +14,10 @@ Profiles used in HospitalNotification are not as open as other profiles because 
 
 
 #### Use Cases
-[ENG-guideline](/documentation/UseCase_Eng.md)
+[ENG-Use Case](/documentation/UseCase_Eng.md)
 
 #### Implementation Guide
-
+For developers see [here](https://build.fhir.org/ig/hl7dk/dk-medcom-hospitalnotification/).
 
 ### Test and Certification
 Apply for MedCom test and certification of HospitalNotification. See a guide [here](https://www.medcom.dk/standarder/testcenter/bestilling-af-test)
@@ -30,6 +30,6 @@ Apply for MedCom test and certification of HospitalNotification. See a guide [he
 
 ### Support or Contact
 
-[Publisher](https://www.medcom.dk/)
+[MedCom](https://www.medcom.dk/) is responsible for this page. 
 
 For any question regaring the standard, please contact <fhir@medcom.dk>
