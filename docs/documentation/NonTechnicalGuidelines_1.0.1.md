@@ -1,7 +1,7 @@
 # Advis om sygehusophold  
 MedCom FHIR-standard<br>
 Version: 1.0.1<br>
-Latest update: 02.11.2021<br>
+Latest update: 02.11.2021
 
 
 ## 1 Introduction  

@@ -1,7 +1,7 @@
 # Use cases for MedComHospitalNotification
 MedCom FHIR-standard<br>  
 Version: 1.0.0<br>
-Latest update: 02.11.2021<br>
+Latest update: 02.11.2021
 
 Purpose with the use cases is to .....
 
