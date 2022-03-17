@@ -3,7 +3,7 @@ MedCom FHIR-standard<br>
 Version: 1.0.0<br>
 Latest update: 02.11.2021<br>
 
-Return to [front page](/docs/index.md)
+Return to [front page](./index.md)
 
 Purpose with the use cases is to .....
 
