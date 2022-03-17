@@ -10,11 +10,11 @@ Profiles used in HospitalNotification are not as open as other profiles because 
 ### Documentation 
 
 #### Non-technical guidelines 
-[ENG-guideline](./documentation/NonTechnicalGuidelines_1.0.1.md)
+[ENG-guideline](/documentation/NonTechnicalGuidelines_1.0.1.md)
 
 
 #### Use Cases
-[ENG-guideline](docs/documentation/UseCase_Eng.md)
+[ENG-guideline](/documentation/UseCase_Eng.md)
 
 #### Implementation Guide
 
@@ -31,4 +31,5 @@ Apply for MedCom test and certification of HospitalNotification. See a guide [he
 ### Support or Contact
 
 [Publisher](https://www.medcom.dk/)
+
 For any question regaring the standard, please contact <fhir@medcom.dk>
