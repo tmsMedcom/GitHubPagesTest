@@ -10,11 +10,11 @@ Profiles used in HospitalNotification are not as open as other profiles because 
 ### Documentation 
 
 #### Non-technical guidelines 
-[ENG-guideline](.\documentation\NonTechnicalGuidelines_1.0.1.md)
+[ENG-guideline](\documentation\NonTechnicalGuidelines_1.0.1.md)
 
 
 #### Use Cases
-[ENG-guideline](.\documentation\UseCase_Eng.md)
+[ENG-guideline](\documentation\UseCase_Eng.md)
 
 #### Implementation Guide
 
