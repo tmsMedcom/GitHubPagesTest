@@ -30,5 +30,5 @@ Apply for MedCom test and certification of HospitalNotification. See a guide [he
 
 ### Support or Contact
 
-[MedCom](https://www.medcom.dk/) is responsible for this page.<br>
+[MedCom](https://www.medcom.dk/) is responsible for this page.  
 For any question regaring the standard, please contact <fhir@medcom.dk>
