@@ -28,6 +28,9 @@ Apply for MedCom test and certification of HospitalNotification. See a guide [he
 - Starter guide (ref. to another .md page)
 - HospitalNotification Testscripts
 
+### Release Notes
+
+Updates in the latest release. 
 
 ### Support or Contact
 
