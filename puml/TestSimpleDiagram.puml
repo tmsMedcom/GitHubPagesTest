@@ -1,0 +1,27 @@
+@startuml testSimpleDiagram
+
+left to right direction
+'title
+title HospitalNotification Message
+
+'Message 1: New message
+
+rectangle Bundle as "Bundle" #LightBlue{
+    rectangle messageHeader as "MessageHeader" #LightBlue{
+        rectangle encounter as "Encounter" #LightBlue{
+            rectangle patient as "Patient" #LightCoral{
+            }
+            rectangle service as "Service Provider Organization" #LightGoldenRodYellow{
+            }
+        }
+        rectangle sender as "Sender Organization" #LightGoldenRodYellow{
+        }
+        rectangle receiver as "Receiver Organization" #LightGoldenRodYellow{
+        }
+    }
+    rectangle provenance as "Provenance" #LightGoldenRodYellow{
+    }
+}
+
+
+@enduml
