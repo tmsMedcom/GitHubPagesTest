@@ -7,7 +7,7 @@ This FHIR&reg;&copy; standard is developed by [MedCom](https://www.medcom.dk/). 
 ### Introduction to HospitalNotification
 HospitalNotification is a merely closed standard because the message is automatically sent and thus not based on patient consent. The legislation permits this exchange, but the message shall not contain more information than nessecary.
 
-You can read more about the content of a HospitalNotification message [here](documentation/HospitalNotification.md) 
+You can read more about the content of the FHIR profiles in a HospitalNotification message [here](documentation/HospitalNotification.md). 
 
 ### Documentation 
 

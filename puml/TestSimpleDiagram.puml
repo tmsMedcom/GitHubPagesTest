@@ -11,7 +11,7 @@ rectangle Bundle as "Bundle" #LightBlue{
         rectangle encounter as "Encounter" #LightBlue{
             rectangle patient as "Patient" #LightCoral{
             }
-            rectangle service as "Service Provider Organization" #LightGoldenRodYellow{
+            rectangle service as "Service Provider Organization" #LightCoral{
             }
         }
         rectangle sender as "Sender Organization" #LightGoldenRodYellow{
@@ -22,6 +22,4 @@ rectangle Bundle as "Bundle" #LightBlue{
     rectangle provenance as "Provenance" #LightGoldenRodYellow{
     }
 }
-
-
 @enduml
