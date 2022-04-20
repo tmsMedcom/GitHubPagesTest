@@ -2,12 +2,15 @@
 
 This FHIR&reg;&copy; standard is developed by [MedCom](https://www.medcom.dk/). HospitalNotification (Danish: "Sygehusadvis") is a message based standard used to inform a municipality about hospitalization of a patient.
 
-1 [1 Documentation](#1-documentation) <br> 
-    1 [1.1 Non-technical guidelines](#11-non-technical-guidelines) <br> 
-    2 [1.2 Use Cases](#12-use-cases) <br> 
-    3 [1.3 Implementation Guide](#13-implementation-guide) <br> 
-    4 [1.4 Mapping from XDIS20 and XDIS17 to HospitalNotification](#14-mapping-from-xdis20-and-xdis17-to-hospitalnotification) <br> 
-2 [2 Test and Certification](#2-test-and-certification) <br> 
+  * [1 Documentation](#1-documentation)
+    + [1.1 Non-technical guidelines](#11-non-technical-guidelines)
+    + [1.2 Use Cases](#12-use-cases)
+    + [1.3 Implementation Guide](#13-implementation-guide)
+    + [1.4 Mapping from XDIS20 and XDIS17 to HospitalNotification](#14-mapping-from-xdis20-and-xdis17-to-hospitalnotification)
+  * [2 Test and Certification](#2-test-and-certification)
+    + [2.1 Testprotocol](#21-testprotocol)
+  * [3 Release Notes](#3-release-notes)
+  * [4 Support or Contact](#4-support-or-contact)
 
 ## 1 Documentation 
 In the documentation below you will find the necessary content to understand the needs for modernization, the role of the HospitalNotification message, what to implement and how to get a MedCom certificate. 

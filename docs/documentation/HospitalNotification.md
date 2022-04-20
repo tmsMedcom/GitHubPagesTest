@@ -1,4 +1,4 @@
-# Introduction to HospitalNotification IG
+# Introduction to HospitalNotification Implementation Guide
 
 This page aims to give a non-technical introduction to the acutal content of the standard. 
 
