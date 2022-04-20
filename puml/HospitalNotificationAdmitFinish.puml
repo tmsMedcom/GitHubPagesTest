@@ -138,7 +138,7 @@ package "Message 2: Finished inpatient" as finished <<Frame>> #LightBlue{
         target = MH2
         occuredDateTime = 2021-12-01T12:00:10+02:00
         recorded = 2021-12-01T12:00:20
-        activity = "admit-inpatient"
+        activity = "discharge-inpatient-home"
         agent.who = MedComMessagingOrganization/SO1
         entity.role = "deriviation"
         entity.what = MessageHeader/MH1
