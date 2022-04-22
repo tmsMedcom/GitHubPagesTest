@@ -13,10 +13,10 @@ skinparam Ranksep 10
 
 
 'title
-title Simplified example: Admit and finish inpatient
+title Simplified example: Admit and Discharge Inpatient
 
 'Message 1: Admit inpatient
-package "Message 1: Admit inpatient" as admit <<Frame>> #LightBlue{
+package "Message 1: Admit Inpatient" as admit <<Frame>> #LightBlue{
     class "Bundle 1 (MedComHospitalNotificationMessage)" as admitB #LightBlue{
         id = BUN1
         type = "message"
@@ -31,16 +31,6 @@ package "Message 1: Admit inpatient" as admit <<Frame>> #LightBlue{
         sender = MedComMessagingOrganization/SO1
         source.url = *url to receiver of Acknowledgement*
         focus = MedComHospitalNotificationEncounter/ENC1
-    }
-    class "Reciver Organization 1 (MedComMessagingOrganization)" as admitROrg #LightGoldenRodYellow{
-        id = RO1
-        eanIdentifier = 987654321
-        sorIdentifier = 741852963
-    }
-    class "Sender Organization 1 (MedComMessagingOrganization)" as admitSOrg #LightGoldenRodYellow{
-        id = SO1
-        eanIdentifier = 123456789
-        sorIdentifier = 369258147
     }
     class "Encounter 1 (MedComHospitalNotificationEncounter)" as admitENC #LightBlue{
         id = ENC1
@@ -61,6 +51,16 @@ package "Message 1: Admit inpatient" as admit <<Frame>> #LightBlue{
         id = SPO1
         sorIdentifier = 369258147
     }
+    class "Receiver Organization 1 (MedComMessagingOrganization)" as admitROrg #LightGoldenRodYellow{
+        id = RO1
+        eanIdentifier = 987654321
+        sorIdentifier = 741852963
+    }
+    class "Sender Organization 1 (MedComMessagingOrganization)" as admitSOrg #LightGoldenRodYellow{
+        id = SO1
+        eanIdentifier = 123456789
+        sorIdentifier = 369258147
+    }
     class "Provenance 1 (MedComMessagingProvenance)" as admitPRO #LightGoldenRodYellow{
         id = PROV2
         target = MH1
@@ -71,16 +71,16 @@ package "Message 1: Admit inpatient" as admit <<Frame>> #LightBlue{
     }
 
 admitB -[hidden]- admitMH
-admitMH -[hidden]- admitROrg
-admitROrg-[hidden]-admitSOrg
-admitSOrg-[hidden]-admitENC
+admitMH -[hidden]- admitENC
 admitENC-[hidden]-admitPT
 admitPT-[hidden]-admitSPOrg
-admitSPOrg-[hidden]-admitPRO
+admitSPOrg-[hidden]-admitROrg
+admitROrg-[hidden]-admitSOrg
+admitSOrg-[hidden]-admitPRO
 }
 
 'Message 2: Finished inpatient
-package "Message 2: Finished inpatient" as finished <<Frame>> #LightBlue{
+package "Message 2: Discharge Inpatient to Home" as finished <<Frame>> #LightBlue{
     class "Bundle 2 (MedComHospitalNotificationMessage)" as finishedB #LightBlue{
         id = BUN2
         type = "message"
@@ -95,16 +95,6 @@ package "Message 2: Finished inpatient" as finished <<Frame>> #LightBlue{
         sender = MedComMessagingOrganization/SO1
         source.url = *url to receiver of Acknowledgement*
         focus = MedComHospitalNotificationEncounter/ENC2
-    }
-    class "Reciver Organization 1 (MedComMessagingOrganization)" as finishedROrg #LightGoldenRodYellow{
-        id = RO1
-        eanIdentifier = 987654321
-        sorIdentifier = 741852963
-    }
-    class "Sender Organization 1 (MedComMessagingOrganization)" as finishedSOrg #LightGoldenRodYellow{
-        id = SO1
-        eanIdentifier = 123456789
-        sorIdentifier = 369258147
     }
     class "Encounter 2 (MedComHospitalNotificationEncounter)" as finishedENC #LightBlue{
         id = ENC2
@@ -123,6 +113,16 @@ package "Message 2: Finished inpatient" as finished <<Frame>> #LightBlue{
     }
     class "ServiceProvider Organization 1 (MedComCoreOrganization)" as finishedSPOrg #LightCoral{
         id = SPO1 
+        sorIdentifier = 369258147
+    }    
+    class "Receiver Organization 1 (MedComMessagingOrganization)" as finishedROrg #LightGoldenRodYellow{
+        id = RO1
+        eanIdentifier = 987654321
+        sorIdentifier = 741852963
+    }
+    class "Sender Organization 1 (MedComMessagingOrganization)" as finishedSOrg #LightGoldenRodYellow{
+        id = SO1
+        eanIdentifier = 123456789
         sorIdentifier = 369258147
     }    
     class "Provenance 1 (MedComMessagingProvenance)" as admitfinishedPRO #LightGoldenRodYellow{
@@ -144,12 +144,12 @@ package "Message 2: Finished inpatient" as finished <<Frame>> #LightBlue{
         entity.what = MessageHeader/MH1
     }
 finishedB-[hidden]-finishedMH
-finishedMH-[hidden]-finishedROrg
-finishedROrg-[hidden]-finishedSOrg
-finishedSOrg-[hidden]-finishedENC
+finishedMH-[hidden]-finishedENC
 finishedENC-[hidden]-finishedPT
 finishedPT-[hidden]-finishedSPOrg
-finishedSPOrg-[hidden]-admitfinishedPRO
+finishedSPOrg-[hidden]-finishedROrg
+finishedROrg-[hidden]-finishedSOrg
+finishedSOrg-[hidden]-admitfinishedPRO
 admitfinishedPRO-[hidden]-finishedPRO
 
 }
