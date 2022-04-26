@@ -14,6 +14,8 @@ The previous MedComMessagingProvenances in a stream of messages shall always be 
 
 ![](/HNAdmitFinish.png)
 
+A FHIR message can be developed in two different formats; XML or JSON. Below you see a XML example of a HospitalNotification message, including the same content as the 'Message 1: Admit inpatient' on the figure above. <!-- TEXT--> is a comment to indicate the beginning of a profile or to describe the content of the element. 
+
 ``` xml
 <!--MedComHospitalNotificationMessage = Bundle begins here-->
 <Bundle xmlns="http://hl7.org/fhir">
@@ -22,7 +24,7 @@ The previous MedComMessagingProvenances in a stream of messages shall always be 
     <profile
             value="http://medcomfhir.dk/fhir/hospitalnotification/StructureDefinition/medcom-hospitalNotification-message"/>
   </meta>
-  <type value="message"/> <!--This is a message-->
+  <type value="message"/> <!--Indicates that this is a message-->
   <timestamp value="2020-10-15T13:44:14Z"/> <!--When the message was created-->
   <!--MedComHospitalNotificationMessageHeader = MessageHeader begins here.-->
   <entry>
