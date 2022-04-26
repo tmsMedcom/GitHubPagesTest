@@ -17,7 +17,8 @@ The previous MedComMessagingProvenances in a stream of messages shall always be 
 A FHIR message can be developed in two different formats; XML or JSON. Below you see a XML example of a HospitalNotification message, including the same content as the 'Message 1: Admit inpatient' on the figure above. 
 ``` xml 
 <!-- TEXT--> 
-``` is a comment to indicate the beginning of a profile or to describe the content of the element. 
+``` 
+is a comment to indicate the beginning of a profile or to describe the content of the element. 
 
 ``` xml
 <!--MedComHospitalNotificationMessage = Bundle begins here-->
