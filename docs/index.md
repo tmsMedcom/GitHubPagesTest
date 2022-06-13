@@ -25,7 +25,7 @@ Use cases are used to describe the different scenarios this standard supports. <
 
 ### 1.3 Implementation Guide
 The Implementation Guide (IG) describes the technical aspects of the standard and it can be found [here](https://build.fhir.org/ig/hl7dk/dk-medcom-hospitalnotification/). <br> 
-For non-technical readers: To get a better understanding of the content FHIR profiles in the HospitalNotification IG - you can read along [here](HospitalNotification.md). 
+For non-technical readers: To get a better understanding of the content FHIR profiles in the HospitalNotification IG - you can read along [here](documentation/HospitalNotification.md). 
 
 ### 1.4 Mapping from XDIS20 and XDIS17 to HospitalNotification
 Mapping from previous OIOXML standard to FHIR HospitalNotification standard can be found below. Please notice, that not all elements from XDIS20 and XDIS17 are transfered to the HospitalNotification. Further not all elements from the FHIR message are represented in the document. <br> 
