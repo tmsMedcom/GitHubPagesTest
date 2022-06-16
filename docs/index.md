@@ -1,5 +1,7 @@
 # HospitalNotification
 
+Version 0.1.0-a.1 - test
+
 This FHIR&reg;&copy; standard is developed by [MedCom](https://www.medcom.dk/). HospitalNotification (Danish: "Sygehusadvis") is a message based standard used to inform a municipality about hospitalization of a patient.
 
   * [1 Documentation](#1-documentation)
