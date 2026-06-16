@@ -79,7 +79,7 @@ Der anmodes om indlæggelsesrapport (<a href="https://svn.medcom.dk/svn/releases
 <thead>
   <tr>
     <th class="tg-7k98" rowspan="2">Hændelse </th>
-    <th class="tg-7k98" rowspan="2">Kode<sup>1</sup></th>
+    <th class="tg-7k98" rowspan="2">Kode<sup><a href="#fn1" id="ref1">1</a></sup></th>
     <th class="tg-7k98">Status for sygehusophold </th>
     <th class="tg-7k98" rowspan="2">Anmodning om indlæggelsesrapport (XDIS16)</th>
     <th class="tg-7k98" rowspan="2">Gevinst</th>
@@ -186,7 +186,7 @@ Der anmodes om indlæggelsesrapport (<a href="https://svn.medcom.dk/svn/releases
 </tbody>
 </table></div>
 
-<sup>1</sup> Note 1 : repræsenterer [advis-koder beskrevet i oversigten](https://medcomdk.github.io/dk-medcom-hospitalnotification/assets/documents/Overview-HospitalNotification-codes-FHIR.html)
+<sup id="fn1">1<a href="#ref1"></a></sup>: repræsenterer [advis-koder beskrevet i oversigten](https://medcomdk.github.io/dk-medcom-hospitalnotification/assets/documents/Overview-HospitalNotification-codes-FHIR.html)
 
 ## 6 Forretningsregler for anvendelse
 Der er aftalt forretningsregler for anvendelse af Advis om sygehusophold.Disse præsenteres i <a href="Tabel2"> tabel 2</a>. Bemærk, at der til brug for den tekniske implementering, er der udarbejdet en række use cases, hvor funktionaliteter og forretningsregler for anvendelse er omsat til en række detaljerede use cases for hhv. afsender- og modtagersystemer.<br><a href="https://medcomdk.github.io/dk-medcom-hospitalnotification/#12-use-cases">Klik her for at læse use cases. </a><br>
